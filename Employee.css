@@ -1,0 +1,64 @@
+employee.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+ .hidden {
+    display: none;
+  }
+  .show{
+    display: inline;
+  }
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    border: 2px solid;
+}
+.container h2{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.input-grp{
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.inputDivs{
+    margin-top: 25px;
+}
+.form-control{
+    border: 1px solid;
+}
+.form-check{
+    margin-right: 10px;
+}
+.input-grp select{
+    flex-basis: 40%;
+    padding: 5px;
+    font-size: 18px;
+}
+.input-grp textarea{
+    flex-basis: 70%;
+    height: 70px;
+    font-size: 18px;
+}
+.inputBtn{
+    display: flex;
+    justify-content: space-around;
+}
+.inputBtn input{
+    width: 30%;
+}
+.editBtn{
+    color: rgb(13 110 253);
+}
